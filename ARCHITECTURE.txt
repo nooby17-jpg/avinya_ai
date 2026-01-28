@@ -1,0 +1,25 @@
+
+
+                ┌─────────────────────┐
+                │   Frontend Clients  │
+                │─────────────────────│
+                │  Web  │ Mobile │ PC │
+                └──────────┬──────────┘
+                           │ API
+        ┌──────────────────┴──────────────────┐
+        │         AI CORE PLATFORM             │
+        │─────────────────────────────────────│
+        │ NLP Engine (DL)                      │
+        │ Emergency Detection Model            │
+        │ Intent Classification                │
+        │ Decision & Confidence Engine         │
+        │ Speech Interface                     │
+        └──────────┬──────────────────────────┘
+                   │
+        ┌──────────┴──────────┐
+        │ Hospital Configs     │
+        │────────────────────│
+        │ avinya.json         │
+        │ clinic_x.json       │
+        │ govt_hospital.json  │
+        └────────────────────┘

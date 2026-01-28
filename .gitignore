@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual env
+venv/
+.env/
+
+# ML / DL models (DO NOT PUSH)
+core_ai/models/*.pkl
+core_ai/models/*.h5
+core_ai/models/*.model
+
+# Tokenizers
+*.pickle
+*.pkl
+
+# Large data
+data/simulation/*.json
+
+# OS
+.DS_Store
+Thumbs.db

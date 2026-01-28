@@ -1,0 +1,56 @@
+{
+  "hospital_metadata": {
+    "name": "Avinya Hospital",
+    "address": "Jorethang, South Sikkim, Sikkim - 737126",
+    "contact": "+91-3595-257XXX",
+    "emergency_number": "112",
+    "floors": 5
+  },
+
+  "emergency_protocols": {
+    "emergency_symptoms": [
+      "chest pain",
+      "breathlessness",
+      "severe bleeding",
+      "loss of consciousness",
+      "high fever with seizures",
+      "stroke symptoms",
+      "severe trauma"
+    ],
+    "priority_departments": ["Emergency", "ICU"],
+    "action_on_detection": [
+      "audio_alert",
+      "on_screen_warning",
+      "guide_to_emergency"
+    ]
+  },
+
+  "ai_safety": {
+    "emergency_confidence_threshold": 0.75,
+    "force_emergency_symptoms": [
+      "chest pain",
+      "breathlessness",
+      "severe bleeding",
+      "loss of consciousness",
+      "stroke symptoms"
+    ]
+  },
+
+  "staff": {
+    "doctors": [
+      {
+        "id": "DOC005",
+        "name": "Dr. Dorjee Chettri",
+        "specialty": "Cardiology",
+        "room": 105
+      },
+      {
+        "id": "DOC016",
+        "name": "Dr. Pema Tamang",
+        "specialty": "Pediatrics",
+        "room": 116
+      }
+    ],
+    "nurses": []
+  }
+}
